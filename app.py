@@ -22,17 +22,19 @@ st.markdown("---")
 
 # Vantage portfolio configuration
 VANTAGE_PORTFOLIO = {
-    'AUDJPY': {'lots': 0.02, 'notional': 1126, 'weight': 0.04, 'yf_ticker': 'AUDJPY=X'},
-    'EURCHF': {'lots': -0.02, 'notional': 2000, 'weight': 0.06, 'yf_ticker': 'EURCHF=X'},
-    'GER40': {'lots': 0.2, 'notional': 4723, 'weight': 0.15, 'yf_ticker': '^GDAXI'},
-    'SP500': {'lots': 1, 'notional': 5188, 'weight': 0.16, 'yf_ticker': 'SPY'},
-    'UKOIL': {'lots': 0.01, 'notional': 640, 'weight': 0.02, 'yf_ticker': 'BZ=F'},
-    'USDJPY': {'lots': -0.03, 'notional': 2560, 'weight': 0.08, 'yf_ticker': 'USDJPY=X'},
-    'USNOTE10YR': {'lots': 30, 'notional': 2863, 'weight': 0.09, 'yf_ticker': '^TNX'},
-    'XAGUSD': {'lots': -0.01, 'notional': 1807, 'weight': 0.06, 'yf_ticker': 'SI=F'},
-    'XAUUSD': {'lots': 0.02, 'notional': 6865, 'weight': 0.21, 'yf_ticker': 'GC=F'},
-    'EURJPY': {'lots': -0.02, 'notional': 2000, 'weight': 0.06, 'yf_ticker': 'EURJPY=X'},
-    'GBPJPY': {'lots': 0.02, 'notional': 2300, 'weight': 0.07, 'yf_ticker': 'GBPJPY=X'}
+    'AUDJPY': {'lots': 0, 'notional': 0, 'weight': 0.00, 'yf_ticker': 'AUDJPY=X'},
+    'EURCHF': {'lots': -0.02, 'notional': 2000, 'weight': 0.12, 'yf_ticker': 'EURCHF=X'},
+    'GER40': {'lots': 0.1, 'notional': 2319, 'weight': 0.14, 'yf_ticker': '^GDAXI'},
+    'SP500': {'lots': 0.6, 'notional': 3110, 'weight': 0.18, 'yf_ticker': '^GSPC'},
+    'UKOIL': {'lots': 0.01, 'notional': 667, 'weight': 0.04, 'yf_ticker': 'CL=F'},
+    'USDJPY': {'lots': -0.01, 'notional': 868, 'weight': 0.05, 'yf_ticker': 'USDJPY=X'},
+    'USNOTE10YR': {'lots': 30, 'notional': 2863, 'weight': 0.17, 'yf_ticker': '^TNX'},
+    'XAGUSD': {'lots': -0.01, 'notional': 1807, 'weight': 0.11, 'yf_ticker': 'SI=F'},
+    'XAUUSD': {'lots': 0.01, 'notional': 3433, 'weight': 0.20, 'yf_ticker': 'GC=F'},
+    'EURJPY': {'lots': 0, 'notional': 0, 'weight': 0.00, 'yf_ticker': 'EURJPY=X'},
+    'GBPJPY': {'lots': 0, 'notional': 0, 'weight': 0.00, 'yf_ticker': 'GBPJPY=X'},
+    'US2000': {'lots': 0, 'notional': 0, 'weight': 0.00, 'yf_ticker': '^RUT'},
+    'NAS100': {'lots': 0, 'notional': 0, 'weight': 0.00, 'yf_ticker': '^NDX'}
 }
 
 # Default pairs trading
