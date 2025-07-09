@@ -21,20 +21,23 @@ st.title("📊 Advanced Neoangelo Portfolio Analytics")
 st.markdown("---")
 
 # Vantage portfolio configuration
+
 VANTAGE_PORTFOLIO = {
-    'USDJPY':     {'lots': -0.05, 'notional': 4264,  'weight': 0.3011, 'yf_ticker': 'USDJPY=X'},
-    'XAUUSD':     {'lots': 0.01,  'notional': 3304,  'weight': 0.2334, 'yf_ticker': 'GC=F'},
-    'SOYBEANS':   {'lots': 0.1,   'notional': 432,   'weight': 0.0305, 'yf_ticker': 'ZS=F'},
-    'NVDA':       {'lots': -3,    'notional': 408,   'weight': 0.0288, 'yf_ticker': 'NVDA'},
-    'ABNB':       {'lots': -5,    'notional': 584,   'weight': 0.0412, 'yf_ticker': 'ABNB'},
-    'GOOGL':      {'lots': 5,     'notional': 744,   'weight': 0.0525, 'yf_ticker': 'GOOGL'},
-    'GS':         {'lots': -1,    'notional': 595,   'weight': 0.0420, 'yf_ticker': 'GS'},
-    'HOOD':       {'lots': 6,     'notional': 471,   'weight': 0.0333, 'yf_ticker': 'HOOD'},
-    'JPM':        {'lots': 6,     'notional': 1446,  'weight': 0.1021, 'yf_ticker': 'JPM'},
-    'META':       {'lots': 1,     'notional': 612,   'weight': 0.0432, 'yf_ticker': 'META'},
-    'MS':         {'lots': 5,     'notional': 603,   'weight': 0.0426, 'yf_ticker': 'MS'},
-    'RBLX':       {'lots': 5,     'notional': 446,   'weight': 0.0315, 'yf_ticker': 'RBLX'},
-    'UBER':       {'lots': 3,     'notional': 247,   'weight': 0.0174, 'yf_ticker': 'UBER'}
+    'USDJPY':     {'lots': -0.05, 'notional': 4264,  'weight': 0.27, 'yf_ticker': 'USDJPY=X'},
+    'XAUUSD':     {'lots': 0.01,  'notional': 3304,  'weight': 0.21, 'yf_ticker': 'GC=F'},
+    'SOYBEANS':   {'lots': 0.1,   'notional': 432,   'weight': 0.03, 'yf_ticker': 'ZS=F'},
+    'NVDA':       {'lots': -3,    'notional': 408,   'weight': 0.03, 'yf_ticker': 'NVDA'},
+    'ABNB':       {'lots': -5,    'notional': 584,   'weight': 0.04, 'yf_ticker': 'ABNB'},
+    'GOOGL':      {'lots': 5,     'notional': 744,   'weight': 0.05, 'yf_ticker': 'GOOGL'},
+    'GS':         {'lots': -1,    'notional': 595,   'weight': 0.04, 'yf_ticker': 'GS'},
+    'HOOD':       {'lots': 6,     'notional': 471,   'weight': 0.03, 'yf_ticker': 'HOOD'},
+    'JPM':        {'lots': 6,     'notional': 1446,  'weight': 0.09, 'yf_ticker': 'JPM'},
+    'META':       {'lots': 1,     'notional': 612,   'weight': 0.04, 'yf_ticker': 'META'},
+    'MS':         {'lots': 5,     'notional': 603,   'weight': 0.04, 'yf_ticker': 'MS'},
+    'RBLX':       {'lots': 5,     'notional': 446,   'weight': 0.03, 'yf_ticker': 'RBLX'},
+    'UBER':       {'lots': 3,     'notional': 247,   'weight': 0.02, 'yf_ticker': 'UBER'},
+    'SP500':      {'lots': -0.1,  'notional': 531,   'weight': 0.03, 'yf_ticker': '^GSPC'},
+    'USNOTE10YR': {'lots': 10,    'notional': 946,   'weight': 0.06, 'yf_ticker': 'TLT'}
 }
 
 # Default pairs trading
